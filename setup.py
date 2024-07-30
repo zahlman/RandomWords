@@ -25,27 +25,7 @@ else:
 
 
 setup(
-    name='RandomWords',
-    version='0.4.0',
-    author='Tomek Święcicki',
-    author_email='tomislater@gmail.com',
     packages=['random_words'],
-    url='https://github.com/tomislater/RandomWords',
-    license='LICENSE.txt',
-    description='A useful module for a random text, e-mails and lorem ipsum.',
-    long_description=open('README.rst').read(),
-    classifiers=[
-        'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python',
-        'Natural Language :: English',
-        'Development Status :: 5 - Production/Stable',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9',
-        'Programming Language :: Python :: 3.10',
-        'Topic :: Software Development :: Libraries :: Python Modules',
-    ],
     include_package_data=True,
     install_requires=[],
     tests_require=['pytest'],
