@@ -25,9 +25,6 @@ else:
 
 
 setup(
-    packages=['random_words'],
-    include_package_data=True,
-    install_requires=[],
     tests_require=['pytest'],
     cmdclass=CMDCLASS,
     test_suite='random_words.test.test_random_words',

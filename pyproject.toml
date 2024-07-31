@@ -24,3 +24,6 @@ email = "tomislater@gmail.com"
 
 [project.urls]
 homepage = "https://github.com/tomislater/RandomWords"
+
+[tool.setuptools]
+packages = [ "random_words" ]
